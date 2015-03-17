@@ -2,9 +2,8 @@
   "machine": "login",
   "expectations": [
     {
-      "todo": true,
       "using": {},
-      "outcome": "success"
+      "outcome": "error"
     }
   ]
 }
