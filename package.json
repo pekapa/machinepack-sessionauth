@@ -1,6 +1,6 @@
 {
   "name": "machinepack-sessionauth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Support for login, logout, and authentication via encrypted cookies and a session store.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
