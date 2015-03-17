@@ -24,7 +24,7 @@
     "test-machinepack-mocha": "^0.2.2"
   },
   "machinepack": {
-    "friendlyName": "Login",
+    "friendlyName": "Authentication",
     "machineDir": "machines/",
     "machines": [
       "login",
