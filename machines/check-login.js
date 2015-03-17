@@ -29,11 +29,14 @@ module.exports = {
     },
 
     success: {
-      friendlyName: 'logged in'
+      friendlyName: 'logged in',
+      description: 'Returns the ID of currently logged-in user.',
+      example: '28ahgdalad9191djga'
     },
 
     otherwise: {
-      friendlyName: 'not logged in'
+      friendlyName: 'not logged in',
+      description: 'The requesting user is not logged in.'
     }
 
   },
@@ -42,17 +45,17 @@ module.exports = {
   fn: function(inputs, exits, env) {
     var Session = require('machinepack-session');
 
-    Session.get({
+    Session.load({
       key: 'me'
     }).setEnvironment({
       req: env.req
     }).exec({
       error: exits.error,
-      success: function (id){
-        if (id) {
-          return exits.success();
-        }
+      notFound: function (){
         return exits.otherwise();
+      },
+      success: function (id){
+        return exits.success(id);
       }
     });
   }
