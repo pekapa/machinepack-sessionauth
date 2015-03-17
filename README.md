@@ -1,23 +1,22 @@
-
 <h1>
   <a href="http://node-machine.org" title="Node-Machine public registry"><img alt="node-machine logo" title="Node-Machine Project" src="http://node-machine.org/images/machine-anthropomorph-for-white-bg.png" width="50" /></a>
-  machinepack-login
+  machinepack-sessionauth
 </h1>
 
-### [Docs](http://node-machine.org/machinepack-login) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
+### [Docs](http://node-machine.org/machinepack-sessionauth) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
 Support for login, logout, and authentication via encrypted cookies and a session store.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-login.svg)](http://badge.fury.io/js/machinepack-login) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-login.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-login)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-sessionauth.svg)](http://badge.fury.io/js/machinepack-sessionauth) [![Build Status](https://travis-ci.org/treelinehq/machinepack-sessionauth.png?branch=master)](https://travis-ci.org/treelinehq/machinepack-sessionauth)
 
 ```sh
-$ npm install machinepack-login
+$ npm install machinepack-sessionauth
 ```
 
 ## Usage
 
-For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-login" title="Support for login, logout, and authentication via encrypted cookies and a session store. (for node.js)">http://node-machine.org/machinepack-login</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
+For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-sessionauth" title="Support for login, logout, and authentication via encrypted cookies and a session store. (for node.js)">http://node-machine.org/machinepack-sessionauth</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
 
 ## About  &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -27,5 +26,5 @@ Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine 
 
 ## License
 
-MIT &copy; 2015 contributors
+MIT &copy; 2015 Mike McNeil and contributors
 

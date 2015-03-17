@@ -1,0 +1,10 @@
+{
+  "machine": "logout",
+  "expectations": [
+    {
+      "todo": true,
+      "using": {},
+      "outcome": "success"
+    }
+  ]
+}

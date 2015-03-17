@@ -1,5 +1,5 @@
 {
-  "name": "machinepack-login",
+  "name": "machinepack-sessionauth",
   "version": "0.1.0",
   "description": "Support for login, logout, and authentication via encrypted cookies and a session store.",
   "scripts": {
@@ -10,13 +10,15 @@
     "check-login",
     "logout",
     "authentication",
+    "session",
     "machines",
     "machinepack"
   ],
   "author": "Mike McNeil",
   "license": "MIT",
-  "dependencies":{
-    "machine": "^3.0.0"
+  "dependencies": {
+    "machine": "^4.0.0",
+    "machinepack-session": "^0.2.0"
   },
   "devDependencies": {
     "test-machinepack-mocha": "^0.2.2"
@@ -24,6 +26,15 @@
   "machinepack": {
     "friendlyName": "Login",
     "machineDir": "machines/",
-    "machines": ["login","logout","check-login"]
+    "machines": [
+      "login",
+      "logout",
+      "check-login"
+    ],
+    "testsUrl": "https://travis-ci.org/treelinehq/machinepack-sessionauth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:treelinehq/machinepack-sessionauth.git"
   }
 }
