@@ -13,9 +13,6 @@ module.exports = {
   environment: ['req'],
 
 
-  defaultExit: 'success',
-
-
   inputs: {
 
   },

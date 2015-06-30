@@ -16,9 +16,6 @@ module.exports = {
   iconSrc: '/images/icons/female_user.png',
 
 
-  defaultExit: 'success',
-
-
   inputs: {},
 
 
