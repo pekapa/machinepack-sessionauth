@@ -10,10 +10,7 @@ module.exports = {
   extendedDescription: 'Assumes that being "logged in" means that the session has a key called `me`.',
 
 
-  environment: ['req'],
-
-
-  iconSrc: '/images/icons/female_user.png',
+  habitat: 'sails',
 
 
   inputs: {},
@@ -21,18 +18,14 @@ module.exports = {
 
   exits: {
 
-    error: {
-      description: 'Unexpected error occurred'
-    },
-
     success: {
-      friendlyName: 'logged in',
-      description: 'Returns the ID of currently logged-in user.',
-      example: '28ahgdalad9191djga'
+      outputFriendlyName: 'Logged in user ID',
+      outputDescription: 'The ID of currently logged-in user.',
+      outputExample: '28ahgdalad9191djga'
     },
 
     otherwise: {
-      friendlyName: 'not logged in',
+      friendlyName: 'Not logged in',
       description: 'The requesting user is not logged in.'
     }
 

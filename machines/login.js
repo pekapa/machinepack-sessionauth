@@ -10,7 +10,7 @@ module.exports = {
   extendedDescription: 'Assumes that being "logged in" means that the session has a key called `me`.',
 
 
-  environment: ['req'],
+  habitat: 'sails',
 
 
   inputs: {
@@ -20,19 +20,6 @@ module.exports = {
       description: 'The unique ID to store in the session to represent this user.',
       example: 'ad913nfa0139ame2iekda13',
       required: true
-    }
-
-  },
-
-
-  exits: {
-
-    error: {
-      description: 'Unexpected error occurred'
-    },
-
-    success: {
-      friendlyName: 'then'
     }
 
   },

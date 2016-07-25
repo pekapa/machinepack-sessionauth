@@ -10,24 +10,10 @@ module.exports = {
   extendedDescription: 'Deletes the `me` key from the current user session.',
 
 
-  environment: ['req'],
+  habitat: 'sails',
 
 
   inputs: {
-
-  },
-
-
-  exits: {
-
-    error: {
-      description: 'Unexpected error occurred'
-    },
-
-    success: {
-      friendlyName: 'then',
-      description: 'Done.'
-    }
 
   },
 
