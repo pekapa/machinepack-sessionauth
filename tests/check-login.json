@@ -1,9 +1,0 @@
-{
-  "machine": "check-login",
-  "expectations": [
-    {
-      "using": {},
-      "outcome": "error"
-    }
-  ]
-}
