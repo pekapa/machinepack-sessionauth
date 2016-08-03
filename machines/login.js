@@ -26,15 +26,21 @@ module.exports = {
 
 
   fn: function(inputs, exits, env) {
+
+    // Import `machinepack-session`.
     var Session = require('machinepack-session');
 
+    // Set the "me" session key to the specified ID value, to indicate
+    // that the user with that ID is "logged in".
     Session.save({
       key: 'me',
       value: inputs.id
     }).setEnvironment({
       req: env.req
     }).exec({
+      // Forward errors through our `error` exit.
       error: exits.error,
+      // Otherwise return through our `success` exit.
       success: exits.success
     });
   }
