@@ -13,6 +13,9 @@ module.exports = {
   habitat: 'sails',
 
 
+  sideEffects: 'idempotent',
+
+
   inputs: {
 
     id: {
