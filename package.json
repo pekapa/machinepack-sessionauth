@@ -17,6 +17,7 @@
   "author": "Mike McNeil",
   "license": "MIT",
   "dependencies": {
+    "lodash.isobject": "^3.0.2",
     "machine": "^12.3.0",
     "machinepack-session": "^0.3.1"
   },
