@@ -10,7 +10,7 @@ module.exports = {
   extendedDescription: 'Assumes that being "logged in" means that the session has a key called `me`.',
 
 
-  habitat: 'sails',
+  habitat: 'request',
 
 
   sideEffects: 'idempotent',

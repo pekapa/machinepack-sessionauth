@@ -10,7 +10,7 @@ module.exports = {
   extendedDescription: 'Deletes the `me` key from the current user session.',
 
 
-  habitat: 'sails',
+  habitat: 'request',
 
 
   sideEffects: 'idempotent',
